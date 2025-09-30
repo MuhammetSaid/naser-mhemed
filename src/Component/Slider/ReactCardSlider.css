@@ -1,0 +1,24 @@
+.main-side {
+    width: 280px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-card-image {
+    width: 100%;
+    height: 200px;
+
+}
+
+.slide-card-image img {
+    width: 100%;
+}
+
+.text-dev {
+    width: 100%;
+    background-color: white;
+    height: 170px;
+}

@@ -1,0 +1,40 @@
+.main-side2 {
+    width: 100%;           /* slide genişliğini doldursun */
+    max-width: 700px;      /* isteğe bağlı max genişlik */
+    height: 12vh;
+    background-color: white;
+    margin: 10px auto;     /* ortalamak için auto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;    /* isteğe bağlı kart köşesi */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* hafif gölge */
+    padding: 10px;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+/* sağdaki ileri ok */
+.swiper-button-next {
+    right: -40px; /* slide'ın dışına taşır */
+    color: black; /* ok rengi */
+}
+
+/* soldaki geri ok */
+.swiper-button-prev {
+    left: -40px; /* slide'ın dışına taşır */
+    color: black;
+}
+
+/* opsiyonel: ok boyutunu büyütmek */
+.swiper-button-next, .swiper-button-prev {
+    width: 35px;
+    height: 35px;
+}
+@media (max-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none; /* mobilde okları gizle */
+    }
+}
+
