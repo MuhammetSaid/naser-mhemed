@@ -98,8 +98,7 @@
 }
 
 .image2 img {
-    width: 90%;
-    height: 90%;
+    width: 82%;
     border-radius: 20px;
 }
 
@@ -327,6 +326,15 @@
 
     .section4-content, .section5-content, .section6-content, .section7-content, .section8-content, .section3-content {
         margin-left: 240px;
+    }
+
+    .logo-abs {
+        width: 40% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center;
+    }
+    .logo-abs img {
     }
 }
 
