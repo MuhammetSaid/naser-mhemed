@@ -11,29 +11,42 @@ import "./ReactCardSlider.css"
 export default () => {
     return (
         <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
-            spaceBetween={50}
+            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+            spaceBetween={30}
             slidesPerView={3} // varsayılan
             navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
             autoplay={{
-                delay: 3000, // 3 saniyede bir otomatik kaydır
+                delay: 3500, // 3.5 saniyede bir otomatik kaydır
                 disableOnInteraction: false, // kullanıcı dokunsa bile devam etsin
             }}
             breakpoints={{
                 0: {
                     slidesPerView: 1,
+                    spaceBetween: 12,
+                },
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 16,
+                    centeredSlides: true,
                 },
                 768: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    centeredSlides: true,
+                },
+                900: {
+                    slidesPerView: 1,
+                    spaceBetween: 24,
                 },
                 1024: {
-                    slidesPerView: 3,
+                    slidesPerView: 2,
+                    spaceBetween: 30,
                 },
             }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => {}}
+            onSlideChange={() => {}}
         >
             <SwiperSlide>
                 <div className="main-side" onClick={() => { window.location.hash = `?content=${encodeURIComponent('الصحة والتعليم')}&image=${encodeURIComponent('https://i.imgur.com/VSSVqDp.jpeg')}` }} style={{cursor: 'pointer'}}>

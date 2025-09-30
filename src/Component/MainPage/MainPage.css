@@ -75,7 +75,7 @@
 }
 
 .section2 {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #FFF6E8;
     margin-left: 300px;
 
@@ -447,6 +447,25 @@
         margin-left: 240px;
         padding-right: 20px;
         padding-left: 20px;
+    }
+
+    .section5-content {
+        margin-left: 300px;
+    }
+    .section8-content {
+        margin-left: 300px;
+    }
+    .section8-con-right {
+        width: 90%;
+    }
+    .section2-content {
+        display: block;
+    }
+    .image2 {
+        width: 110%;
+    }
+    .section8-con-right {
+        width: 90% !important;
     }
 }
 
