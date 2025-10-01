@@ -11,17 +11,20 @@
     width: 320px;
     min-width: 320px;
     max-width: 320px;
-    height: 100%;
+    height: 100vh; /* ekran yüksekliğine sabit */
     display: flex;
     position: fixed;
     justify-content: center;
+    overflow-y: auto !important; /* içerik fazla olursa scroll gelir */
 }
 
 .left-content {
     position: fixed;
     padding: 0 36px !important;
     padding-top: 25px !important;
+    height: 100vh; /* ekran yüksekliğine sabit */
     direction: rtl;
+    overflow-y: auto !important; /* içerik fazla olursa scroll gelir */
     z-index: 100 !important;
 }
 
@@ -328,8 +331,6 @@
         align-items: center !important;
         justify-content: center;
     }
-    .logo-abs img {
-    }
     .section4-heading {
         margin-left: 60px;
     }
@@ -460,6 +461,28 @@
         font-size: 28px !important;
     }
 }
+@media (max-width: 1400px) {
+    .section2-content {
+        flex-direction: column !important;
+    }
+    .image2 {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-top: 25px;
+    }
+
+    .image2 img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin-top: 50px;
+    }
+    .section2-title {
+        margin-top: 30px;
+    }
+}
 
 /* Fix section content spacing on smaller screens */
 @media (max-width: 1024px) {
@@ -478,11 +501,12 @@
     .section8-con-right {
         width: 90%;
     }
-    .section2-content {
-        display: block;
-    }
     .section8-con-right {
         width: 90% !important;
+    }
+    
+    .section2-content {
+        flex-direction: column !important;
     }
 }
 
@@ -491,7 +515,12 @@
         margin-left: 0 !important;
         padding: 20px !important;
     }
+    
+    .section2-content {
+        display: flex;
 
+        flex-direction: column !important;
+    }
     .main-dev {
         height: auto !important;
     }
