@@ -2,7 +2,6 @@
 
 .main-dev {
     width: 100%;
-    height: 110vh;
     background-color: #002724;
     position: relative;
     display: flex;
@@ -19,7 +18,6 @@
 }
 
 .left-content {
-    height: 100vh;
     position: fixed;
     padding: 0 36px !important;
     padding-top: 25px !important;
@@ -46,7 +44,6 @@
     width: 100%;
 }
 .right-section {
-    height: 110vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,17 +91,15 @@
 .image2 {
     width: 190%;
     margin-right: 30px;
-    height: 50vh;
 }
 
 .image2 img {
-    width: 82%;
+    width: 100%;
     border-radius: 20px;
 }
 
 .section3 {
     width: 100%;
-    height: 100vh;
     background-color: #002724;
 
 }
@@ -320,8 +315,7 @@
     }
 
     .image2 {
-        width: 140%;
-        height: 40vh;
+        width: 100%;
     }
 
     .section4-content, .section5-content, .section6-content, .section7-content, .section8-content, .section3-content {
@@ -336,6 +330,21 @@
     }
     .logo-abs img {
     }
+    .section4-heading {
+        margin-left: 60px;
+    }
+    .right-sction5 {
+        margin-right: 40px !important;
+    }
+    .section5-text {
+        margin-right: 10px !important;
+    }
+    .section2-title {
+        margin-top: 20px;
+    }
+}
+.section4-heading {
+    margin-top: 60px;
 }
 
 @media (max-width: 768px) {
@@ -376,6 +385,7 @@
         width: 100%;
         height: auto;
         margin-right: 0;
+        margin-top: 20px;
     }
 
     .cards1 {
@@ -389,7 +399,6 @@
     }
 
     .section4-content {
-        height: auto;
         background-size: cover;
         padding: 40px 20px;
     }
@@ -420,6 +429,9 @@
     }
     .section4-content img {
         width: 32% !important;
+    }
+    .section-4-content {
+        margin-left: 0 !important;
     }
 }
 
@@ -469,9 +481,6 @@
     .section2-content {
         display: block;
     }
-    .image2 {
-        width: 110%;
-    }
     .section8-con-right {
         width: 90% !important;
     }
@@ -506,6 +515,7 @@
         height: auto;
         margin-right: 0;
         margin-bottom: 0;
+        margin-top: 25px;
     }
 
     .image2 img {

@@ -27,17 +27,17 @@ export default () => {
                     spaceBetween: 12,
                 },
                 480: {
-                    slidesPerView: 1,
+                    slidesPerView: 1.3,
                     spaceBetween: 16,
                     centeredSlides: true,
                 },
                 768: {
-                    slidesPerView: 1,
+                    slidesPerView: 1.4,
                     spaceBetween: 20,
                     centeredSlides: true,
                 },
                 900: {
-                    slidesPerView: 1,
+                    slidesPerView: 1.9,
                     spaceBetween: 24,
                 },
                 1024: {

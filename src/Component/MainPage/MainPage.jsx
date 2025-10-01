@@ -65,7 +65,7 @@ export default function MainPage() {
                         </div>
                     </div>
 
-                    <div className="section3">
+                    <div className="section3" style={{padding: "30px 0"}}>
                         <div className="section3-content">
                             <h1 className="section-title" style={{margin: "48px", color: "white"}}>الأولويات الوطنية</h1>
                             <div className="slider-div"style={{width: "80%"}}> 
@@ -75,15 +75,21 @@ export default function MainPage() {
                     </div>
                     
 
-                    <div className="section4">
-                        
-                        <div className="section4-content">
-                            
-                            <h1 className="section4-heading" style={{marginTop: "50px", textAlign: "center", width: "80%", color:"#c89a2e", fontWeight: "750", fontFamily: "cairo"}}>لقد طوينا صفحة الحرب في ميادين التحرير، واليوم تبدأ ملحمة البناء
-                            </h1>
+                    <div className="section-4" style={{width: "100%"}}>
+                        <div className="section-4-content" style={{marginLeft: "300px", display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column"}}>
+                            <h1 className='section-4-h1' style={{padding: "20px ", textAlign: "center", color:"#c89a2e", fontWeight: "750", fontFamily: "cairo"}}>لقد طوينا صفحة الحرب في ميادين التحرير، واليوم تبدأ ملحمة البناء</h1>
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Emblem_of_Syria_%282025%E2%80%93present%29.svg/1200px-Emblem_of_Syria_%282025%E2%80%93present%29.svg.png" alt="" style={{marginTop: "1px", width: "12%", marginBottom: "20px"}}/>
                         </div>
                     </div>
+                    {/* <div className="section4" style={{marginTop: "30px"}}>
+                        
+                        <div className="section4-content" style={{ position: "relative"}}>
+                            
+                            <h1 className="section4-heading" style={{ textAlign: "center", color:"#c89a2e", fontWeight: "750", fontFamily: "cairo"}}>لقد طوينا صفحة الحرب في ميادين التحرير، واليوم تبدأ ملحمة البناء
+                            </h1>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Emblem_of_Syria_%282025%E2%80%93present%29.svg/1200px-Emblem_of_Syria_%282025%E2%80%93present%29.svg.png" alt="" style={{marginTop: "1px", width: "12%", marginBottom: "20px"}}/>
+                        </div>
+                    </div> */}
 
                     <div className="section5">
                         <div className="section5-content">
