@@ -23,7 +23,7 @@ export default () => {
             }}
             breakpoints={{
                 0: {
-                    slidesPerView: 1,
+                    slidesPerView: 1.2,
                     spaceBetween: 12,
                 },
                 480: {
